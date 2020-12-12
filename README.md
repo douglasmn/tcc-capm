@@ -22,3 +22,5 @@ Já os índices históricos do IBOVESPA, no arquivo aqui disponibilizado, foi um
 Para facilitar a utilização do algoritmo, está disponibilizado o arquivo de replicação do banco de dados **(bovespa-tcc.sql)** bastando sua importação num banco de dados PostgreSQL e a configuração das credenciais e endereço do banco de dados no algoritmo principal **(tcc-calcula-capm.py)** no campo destinado a esses dados conforme linha abaixo: <br><br>
 *connection = psycopg2.connect(user = "usuário", password = "senha",host = "IP do banco de dados",port = "5432",database = "bovespa")*
 
+O vídeo demonstrativo pode ser acessado no seguinte Link : https://1drv.ms/v/s!AjJuVmBmSf0NuGoX2JSvDU0oo1Jv?e=IX1r5a
+
